@@ -1,0 +1,49 @@
+{
+	"name": "bible-male-names-cli",
+	"version": "0.0.0",
+	"description": "📖 Get male names from the Bible on your terminal",
+	"license": "MIT",
+	"repository": "abranhe/bible-male-names-cli",
+	"author": {
+		"name": "Carlos Abraham",
+		"email": "abraham@abranhe.com",
+		"url": "abranhe.com"
+	},
+	"bin": {
+		"bible-male-names": "cli.js"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"names",
+    "bible",
+    "bible-names",
+    "male",
+    "male-names",
+    "male-bible-names",
+    "bible-male-names",
+    "word",
+    "words",
+    "list",
+    "rand",
+    "human",
+    "cli",
+    "cli-app"
+	],
+	"dependencies": {
+		"meow": "^5.0.0",
+		"bible-male-names": "^1.2.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^1.0.0",
+		"xo": "*"
+	}
+}
